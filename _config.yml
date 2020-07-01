@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Ian's Blog
 # email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Testing testing one two three
+# description: >- # this means to ignore newlines until "baseurl:"
+#   Testing testing one two three
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -29,7 +29,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
-remote_theme: jekyll/minima
+remote_theme: jekyll/minima@49f6dce0727a2441f0b0c265b41b5efc7b042eb6
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
