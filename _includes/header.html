@@ -5,7 +5,8 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <div class="center">
-        <a class="site-title" rel="author" href="{{ relBase }}">{{ site.title | escape | upcase }}</a>
+        {% assign title_prefix_size = site.title.size() | minus: 1 %}
+        <a rel="author" href="{{ relBase }}" class="site-title"><span class="site-title" >{{ site.title | escape | upcase | slice: 0, title_prefix_size }}</span><span class="site-title last-letter" >{{ site.title | escape | upcase | slice: -1 }}</span></a>
     </div>
 
     <!--
