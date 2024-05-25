@@ -23,7 +23,7 @@ Of course, there are infinite rules that can generate the sequence $$[1, 4, 9, 1
 
 ## II.
 
-A riddle from the 1970s sought to put a spotlight gender stereotypes:
+A riddle from the 1970s sought to put a spotlight on gender stereotypes:
 
 > A father and his son are in a car accident. The father dies on the spot. The son is rushed to the ER. The attending surgeon looks at the boy and says, &ldquo;I can&rsquo;t operate on this boy. He's my son!&rdquo; How can this be?
 
