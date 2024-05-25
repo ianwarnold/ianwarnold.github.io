@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ChatGPT 4o and the Feminist Riddle"
-date:   2022-02-15 13:24:40 -0700
+date:   2024-05-24 19:32:25 -0600
 categories:
 ---
 
